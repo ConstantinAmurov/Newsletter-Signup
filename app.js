@@ -54,7 +54,7 @@ app.post("/", (req, res) => { //Se apeleaza cand apasam butonul de submit in for
    res.redirect("/");
  });
 
-    app.listen(process.env.port||3000, () => console.log("Server listening on port 3000"));
+    app.listen(process.env.port, () => console.log("Server listening on port 3000"));
 
     //API MailChimp appid
     //4f923714441696a70ac482e02b0f1de2-us17
