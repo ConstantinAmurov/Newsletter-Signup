@@ -29,7 +29,7 @@ app.post("/", (req, res) => { //Se apeleaza cand apasam butonul de submit in for
       }
 
       var jsonData = JSON.stringify(data);
-      var url = "https://us17.api.mailchimp.com/3.0/lists/s5c4784eb5e/";
+      var url = "https://us17.api.mailchimp.com/3.0/lists/5c4784eb5e/";
       const options = {
         method: "POST",
         auth: "Constantin:4f923714441696a70ac482e02b0f1de2-us17"
